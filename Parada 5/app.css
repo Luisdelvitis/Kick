@@ -1,0 +1,126 @@
+html { 
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*,*::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globais **/
+
+h1 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/** Pagina inicial **/
+
+.topo {
+    margin-top: 25rem;
+}
+.google-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center; 
+
+}
+
+.pesquisar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+    gap: 2rem;
+    
+}
+
+input {
+    border-radius: 3rem;
+    width: 55rem;
+    height: 3.1rem; 
+}
+
+.btn {
+    background-color: #e6e6e6;
+    border-radius: 4rem;
+    display: block;
+    color: #646363;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+ }
+
+ .btn:hover {
+    background-color: #c4c4c4;
+
+}
+    
+/** Pagina com o Menu **/
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+}   
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}  
+
+.Navegacao-menu { 
+     
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra-linha{
+    border-top: .1rem solid rgb(177, 177, 177);
+}
+
+.imagemquadro {
+    background-image: url(Imagens/Quadros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 80rem;
+}    
+
+p {
+    text-align: center;
+    margin-top: 5rem;
+}   
+
+/** Footer **/
+
+.footer {
+    border-top: .1rem #afafaf solid;
+    margin-top: 5rem;
+    padding: 5rem;
+ }
+
+ .copyright {
+    margin-top: 5rem;
+    text-align: center;
+}
